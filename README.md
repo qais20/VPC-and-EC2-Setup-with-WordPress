@@ -63,6 +63,7 @@ Before you begin, ensure you have:
 2. **Attach to VPC**:
    - Select **WordPress-VPC** and click **Attach**.
 
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/attatch%20vpc%20to%20ig.png)
 ---
 
 ## Step 4: Create a Subnet
@@ -91,6 +92,7 @@ Before you begin, ensure you have:
    - **Target**: WordPress-Ig
    - Save changes.
 
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/edit%20route%20-rt.png)
 ---
 
 ## Step 6: Configure a Security Group
@@ -128,18 +130,29 @@ Before you begin, ensure you have:
 
 1. **Find Public IP**:
    - In the EC2 dashboard, locate your instance and copy its Public IPv4 address.
+
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/user%20blog%20wp%20page.png)
 2. **Access WordPress**:
    - Open a browser and enter the IP address followed by `/wp-admin`.
 
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/wp%20login.png)
 ---
 
 ## Step 9: Log In to WordPress
 
 1. **Retrieve Credentials**:
    - Go to EC2 > **Actions** > **Monitor and Troubleshoot** > **Get System Log**.
+
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/ec2%20trbosult.png)
+
    - Locate your WordPress credentials in the system log.
+
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/getting%20credetnials.png)
+
 2. **Log In**:
    - Enter the default username `user` and the retrieved password on the WordPress login page.
+
+![](https://github.com/qais20/VPC-and-EC2-Setup-with-WordPress/blob/a0a02d77081db30c1bcf1aaa003dbde635c816ba/images/success%20into%20getting%20wp.png)
 
 ---
 
@@ -157,4 +170,3 @@ By following this guide, you've successfully deployed a WordPress site on an EC2
 
 ---
 
-Let me know if you need any more adjustments!
